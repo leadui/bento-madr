@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 — 2026-10-29
+
+- License holder is now Oleg Balakirev. No code changes.
+
 ## 0.2.0 — 2026-10-29
 
 - `compose(decision, {kind, lead, skip, extras, maxExtra, hideEmpty})` lets the data choose the compartments: it starts from the template for the decision's kind, fills empty slots with a same-family compartment that has data, and appends evidence the template had no slot for.
